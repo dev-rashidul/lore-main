@@ -78,6 +78,10 @@ nav.navbar {
   width: 100%;
 }
 
+ul.navbar-nav {
+  padding-left: 115px;
+}
+
 .nav-link,
 .nav-link:hover {
   font-weight: 400;
@@ -297,7 +301,7 @@ a.book-btn {
 
 .services-title h2 {
   font-size: 48px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 68px;
   text-align: center;
   letter-spacing: -0.02em;
@@ -464,7 +468,232 @@ a.book-btn {
 
 /* Portal Section CSS End */
 
+/* Getting Started Section CSS Start */
+
+.getting-started-wrapper {
+  background: linear-gradient(280.95deg, #0a0048 4.6%, #06002c 100%);
+  padding: 100px 0;
+}
+
+.getting-started-title h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.gt-steps {
+  padding-top: 39px;
+}
+
+.gt-steps .gt-step-num h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  color: #0a0048;
+  background: #ffffff;
+  border-radius: 100%;
+}
+
+.gt-step-text {
+  padding-left: 30px;
+}
+
+.gt-step-text h4 {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.gt-step-text p {
+  max-width: 70%;
+  width: 100%;
+  font-size: 17px;
+  line-height: 26px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  opacity: 0.8;
+  margin-bottom: 0;
+}
+
+.gt-thumb {
+  position: relative;
+  padding-top: 50px;
+}
+
+.gt-thumb-img {
+  width: 100%;
+}
+
+.play-icon {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 15.7534px 21.0046px rgba(0, 0, 0, 0.42);
+  border-radius: 100%;
+}
+
+/* Getting Started Section CSS End */
+
+/* Book Section CSS Start */
+
+.book-wrapper {
+  background: #e3f6f5;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+.book-content h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: -0.03em;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.book-content p {
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.02em;
+  color: #202020;
+  opacity: 0.8;
+}
+
+.book-btn {
+  padding-top: 100px;
+}
+
+.book-btn a {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  background: #0a0048;
+  padding: 19px 45px;
+  border-radius: 12px;
+}
+
+/* Book Section CSS End */
+
 /* Main Part CSS End */
+
+/* Footer Part CSS Start */
+
+.footer-wrapper {
+  background: #040335;
+  padding-top: 70px;
+  padding-bottom: 5px;
+}
+
+.footer-top {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.footer-top h2 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 67px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+
+.footer-book-btn .book-btn {
+  padding-top: 50px;
+}
+
+.footer-book-btn a {
+  background: #ffffff;
+  color: #0a0048;
+}
+
+.main-footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.footer-wrapper hr {
+  border-top: 1px solid #ffffff !important;
+  opacity: 0.4;
+}
+
+.footer-left {
+  max-width: 35%;
+  width: 100%;
+}
+
+.footer-about p {
+  width: 225px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  padding-top: 20px;
+  opacity: 0.8;
+}
+
+.footer-right {
+  flex: 1;
+}
+
+.footer-menu h4 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 150%;
+  text-align: justify;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.footer-nav li {
+  list-style: none;
+  padding: 8px 0;
+}
+
+.footer-nav li a {
+  font-size: 16px;
+  line-height: 150%;
+  text-align: justify;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+.footer-copyright p {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  padding: 10px 0;
+  opacity: 0.8;
+}
+
+/* Footer Part CSS End */
 
 ::placeholder {
   color: #202020;
